@@ -5,6 +5,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "4000:80"
+    depends_on:
+      - frontend
   frontend:
     build:
       context: ./gpt-direct-front
