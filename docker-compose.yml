@@ -1,4 +1,8 @@
 services:
+  nginx:
+    buld:
+      context: ./nginx-cfg
+      dockerfile: nginx-Dockerfile
   frontend:
     build:
       context: ./gpt-direct-front
