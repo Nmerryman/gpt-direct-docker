@@ -1,6 +1,6 @@
 services:
   nginx:
-    buld:
+    build:
       context: ./nginx-cfg
       dockerfile: nginx-Dockerfile
   frontend:
