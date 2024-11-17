@@ -1,5 +1,5 @@
 services:
   frontend:
     build:
-      contex: ./gpt-direct-front
+      context: ./gpt-direct-front
       dockerfile: Dockerfile
