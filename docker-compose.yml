@@ -2,7 +2,9 @@ services:
   nginx:
     build:
       context: ./nginx-cfg
-      dockerfile: nginx-Dockerfile
+      dockerfile: Dockerfile
+    ports:
+      - "4000:80"
   frontend:
     build:
       context: ./gpt-direct-front
