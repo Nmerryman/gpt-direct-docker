@@ -10,10 +10,10 @@ services:
       - backend
   frontend:
     build:
-      environment:
-        API_URL: testspring.hydris.dev/api
       context: ./gpt-direct-front
       dockerfile: Dockerfile
+    environment:
+      API_URL: testspring.hydris.dev/api
   backend:
     build:
       context: ./gpt-direct-back
