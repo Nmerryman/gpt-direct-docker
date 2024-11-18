@@ -7,9 +7,15 @@ services:
       - "4000:80"
     depends_on:
       - frontend
+      - backend
   frontend:
     build:
       environment:
         API_URL: testspring.hydris.dev/api
       context: ./gpt-direct-front
       dockerfile: Dockerfile
+  backend:
+    build:
+      context: ./gpt-direct-back
+      dockerfile: Dockerfile
+

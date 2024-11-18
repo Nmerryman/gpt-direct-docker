@@ -1,3 +1,6 @@
 [submodule "gpt-direct-front"]
 	path = gpt-direct-front
 	url = https://github.com/Nmerryman/gpt-direct-front.git
+[submodule "gpt-direct-back"]
+	path = gpt-direct-back
+	url = https://github.com/Nmerryman/gpt-direct-back.git
