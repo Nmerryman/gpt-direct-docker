@@ -4,3 +4,7 @@
 [submodule "gpt-direct-back"]
 	path = gpt-direct-back
 	url = https://github.com/Nmerryman/gpt-direct-back.git
+[submodule ".\\gpt-direct-back"]
+	url = git@github.com:Nmerryman/gpt-direct-back.git
+[submodule ".\\gpt-direct-front\\"]
+	url = git@github.com:Nmerryman/gpt-direct-front.git
