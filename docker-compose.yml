@@ -16,4 +16,8 @@ services:
     build:
       context: ./gpt-direct-back
       dockerfile: Dockerfile
-
+    secrets:
+      - openai_key
+secrets:
+  openai_key:
+    file: ./openai_key.txt
