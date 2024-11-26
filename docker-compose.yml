@@ -18,6 +18,9 @@ services:
       dockerfile: Dockerfile
     secrets:
       - openai_key
+      - login_key
 secrets:
   openai_key:
     file: ./openai_key.txt
+  login_key:
+    file: ./login_key.txt
